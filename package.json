@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/parsediff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Parse filesystem diff paths across POSIX and Windows conventions.",
+  "bin": {
+    "parsediff": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/parsediff.git"
+  },
+  "homepage": "https://theworker02.github.io/parsediff/",
+  "keywords": [
+    "parse",
+    "diff",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
